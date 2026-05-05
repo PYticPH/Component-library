@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --bg: #2B2A2A;
+  --bigFont: 3rem;
+  --smallFont: .8rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: var(--smallFont);
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+div.shape {
+  max-width: 50px;
+  padding: .3em .4em;
+}
+
+div.shape.pill {
+  border-radius: 50%;
+}
+
+div.shape.square {
+  border-radius: 2px;
+}
+
+div.gray {
+  background-color: #F3F4F6;
+}
+
+p.gray {
+  color: #1F2937;
+}
+
+div.red {
+  background-color: #FEE2E2;
+}
+
+p.red {
+  color: #990B1B;
+}
+
+div.yellow {
+  background-color: #92400E;
+}
+
+p.yellow {
+  color: #FEF3C7;
+}
+
+div.green {
+  background-color: #D1FAE5;
+}
+
+p.green {
+  color: #065F46;
+}
+
+div.blue {
+  background-color: #DBEAFE;
+}
+
+p.blue {
+  color: #1E40AF;
+}
+
+div.indigo {
+  background-color: #E0E7FF;
+}
+
+p.indigo {
+  color: #3730A3;
+}
+
+div.purple {
+  background-color: #EDE9FE;
+}
+
+div.purple {
+  color: #5B21B6;
+}
+
+div.pink {
+  background-color: #FCE7F3;
+}
+
+p.pink {
+  color: #9D174D;
+}
