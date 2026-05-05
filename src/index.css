@@ -29,7 +29,7 @@ div.shape {
 }
 
 div.shape.pill {
-  border-radius: 50%;
+  border-radius: 48%;
 }
 
 div.shape.square {
