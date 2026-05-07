@@ -16,6 +16,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.components {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  margin-top: 2em;
+  gap: 2em;
+}
+
 p {
   font-size: var(--smallFont);
   font-weight: bold;
