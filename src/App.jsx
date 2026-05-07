@@ -7,13 +7,13 @@ import Badge from "./components/badge/index.jsx"
 function App() {
 
   return (
-    <>
+    <div className="components">
       <Badge>
         <Badge.Shape>
           <Badge.Text>Admin</Badge.Text>
         </Badge.Shape>
       </Badge>
-    </>
+    </div>
   )
 }
 
