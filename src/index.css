@@ -26,6 +26,15 @@ body {
   gap: 2em;
 }
 
+h2 {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+img {
+  margin-right: 1em;
+}
+
 p {
   font-size: var(--smallFont);
   font-weight: bold;
@@ -33,9 +42,29 @@ p {
   overflow-wrap: break-word;
 }
 
+p.banner-text {
+  font-weight: 400;
+  margin: .8em 2.2em 0;
+  text-align: left;
+  font-size: .875rem;
+}
+
 div.shape {
   max-width: 50px;
   padding: .3em .4em;
+}
+
+div.banner {
+  min-width: 400px;
+  padding: 1.5em;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+div.banner-title-container {
+  display: flex;
+  align-items: center;
 }
 
 div.shape.pill {
@@ -70,11 +99,43 @@ p.yellow {
   color: #FEF3C7;
 }
 
+h2.warning,
+h2.error {
+  color: #92400E;
+}
+
+p.warning,
+p.error {
+  color: #B45309;
+}
+
 div.green {
   background-color: #D1FAE5;
 }
 
-p.green {
+div.success {
+  background-color: #ECFDF5;
+}
+
+div.error {
+  background-color: #FEF2F2;
+}
+
+div.warning {
+  background-color: #FFFBEB;
+}
+
+div.info {
+  background-color: #EFF6FF;
+}
+
+p.success {
+  align-items: left;
+  color: #047857;
+}
+
+p.green,
+h2.success {
   color: #065F46;
 }
 
@@ -82,8 +143,13 @@ div.blue {
   background-color: #DBEAFE;
 }
 
-p.blue {
+p.blue,
+h2.info {
   color: #1E40AF;
+}
+
+p.info {
+  color: #1C51B9;
 }
 
 div.indigo {
